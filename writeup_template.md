@@ -22,7 +22,8 @@ The goals / steps of this project are the following:
 [image6]: ./output_images/warped/perspective_undist_straight_lines2.jpg
 [image7]: ./output_images/warped/perspective_undist_straight_lines2.jpg
 [image8]: ./output_images/warped/warped_test3.jpg
-[image9]: .
+[image9]: ./output_images/find_lanes/sliding_window.png
+[image10]: ./output_images/find_lanes/ploynominal.png
 
 [video1]: ./project_video.mp4 "Video"
 
