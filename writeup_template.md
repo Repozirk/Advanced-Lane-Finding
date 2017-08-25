@@ -90,7 +90,7 @@ The verification of the perspective transform was achieved by running this funct
 
 #### 4. Identification of lane-line pixels and fit their positions with a polynomial.
 
-Here the suggestion of the Udacity solution was applied (see code cell 5 from line #73) and delivered following outputs:
+The suggestion of the Udacity solution was applied (see code cell 5 from line #73) and delivered following outputs:
 
 ![alt text][image8]
 ![alt text][image9]
@@ -120,7 +120,7 @@ Here's a [link to my video result](./output_video.mp4)
 
 ### Discussion
 
-To get a better measure data visualization, it is necessary to include a smoothing function like moving average. 
+To get a better measure data visualization, it is necessary to include a smoothing function like moving average. Classes would help here.
 To increase the performance of the code on the challange videos, it might be usefull the use classes to store the data (like searching area for lane pixels) from previous video frames.
-Unfortunately it was to less time to step in solution including classes.
+Unfortunately there was to less time to step in solution including classes.
 
