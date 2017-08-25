@@ -60,7 +60,7 @@ Applyingh the undistortion function will deliver following result:
 
 #### 2. Ceate a thresholded binary image.  Example of a binary image result.
 
-I used a combination of color thresholds (hls and hsv) and gradient thresholds to generate a binary image (function for color threshold `color_threshold()` and gradient threshold `abs_sobel_thresh()` are located in the second code cell of the IPython notebook, Applying these functions can be seen from  code cell 5 from line #28). Here is the test_image_3 and binary_image_3:
+For this project a combination of color thresholds (hls and hsv) and gradient thresholds was usesd to generate a binary image (function for color threshold `color_threshold()` and gradient threshold `abs_sobel_thresh()` are located in the second code cell of the IPython notebook, Applying these functions can be seen from  code cell 5 from line #28). Here is the test_image_3 and binary_image_3:
 
 ![alt text][image4] ![alt text][image5]
 
