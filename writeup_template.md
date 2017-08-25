@@ -1,8 +1,3 @@
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Advanced Lane Finding Project**
 
@@ -19,12 +14,16 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
+[image1]: ./output_images/corners/corners_calibration3.jpg "Detect Chessboard Corners"
+[image2]: ./output_images/undistorted/undist_calibration3.jpg
+[image3]: ./output_images/undistorted/undist_test6.jpg 
+[image4]: ./output_images/undistorted/undist_test3.jpg
+[image5]: ./output_images/pipeline/comb_test3.jpg
+[image6]: ./output_images/warped/perspective_undist_straight_lines2.jpg
+[image7]: ./output_images/warped/perspective_undist_straight_lines2.jpg
+[image8]: ./output_images/warped/warped_test3.jpg
+[image9]: .
+
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
