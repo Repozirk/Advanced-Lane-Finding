@@ -53,7 +53,7 @@ I then used the output objpoints and imgpoints to compute the camera calibration
 
 #### 1. Example of a distortion-corrected image.
 
-Applyingh teh undistortion function will deliver following result:
+Applyingh the undistortion function will deliver following result:
 
 ![alt text][image3]
 
@@ -99,26 +99,28 @@ Here the suggestion of the Udacity solution was applied (see code cell 5 from li
 
 #### 5. Calculation of the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in lines # through # in my code in `my_other_file.py`
+Calculation of the radius of curvature was done in code cell 5 from line #225. The calculation of the position of the vehicle with respect to center was done from line #232
 
-#### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+#### 6. Example image of result plotted back down onto the road such that the lane area is identified clearly.
 
-![alt text][image6]
+This step is executed from line #243
 
----
+![alt text][image11]
+
+
+
 
 ### Pipeline (video)
 
-#### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
-
-Here's a [link to my video result](./project_video.mp4)
+#### 1. Link to your final video output.  
+Here's a [link to my video result](./output_video.mp4)
 
 ---
 
 ### Discussion
 
-#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+To get a better measure data visualization, it is necessary to include a smoothing function like moving average. 
+To increase the performance of the code on the challange videos, it might be usefull the use classes to store the data (like searching area for lane pixels) from previous video frames.
+Unfortunately it was to less time to step in solution including classes.
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
