@@ -36,11 +36,17 @@ The goals / steps of this project are the following:
 
 #### 1. Computation of camera matrix and distortion coefficients.
 
-The 
+The code for this step is contained in the third code cell of the IPython notebook.
+
+The "object points" are the x and y values, assuming the chessboard is fixed on the (x, y) plane at z=0. Thus, objp is just a replicated array of coordinates, and objpoints will be appended with a copy of it every time I successfully detect all chessboard corners in a test image. Imgpoints will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.
+
+By use of "def cal_undistort" in the second code cell of the IPython notebook, the camera calibration and distortion coefficients are computed
+I then used the output objpoints and imgpoints to compute the camera calibration and distortion coefficients using the cv2.calibrateCamera() function. Applying this distortion correction to the test image using the cv2.undistort() function and obtained this result:
 
 
 
-![alt text][image1]
+![Distorted with Detect Chessboard Corners][image1] ![Undistorted][image2]
+
 
 ### Pipeline (single images)
 
