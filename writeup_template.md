@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image8]: ./output_images/warped/warped_test3.jpg
 [image9]: ./output_images/find_lanes/sliding_window.png
 [image10]: ./output_images/find_lanes/ploynominal.png
-[image11]: ./output_images/find_lanes/unwarped_with_data.png
+[image11]: ./output_images/find_lanes/unwarped_with_data_wh.png
 
 [video1]: ./output_video.mp4 "Video"
 
