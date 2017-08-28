@@ -106,7 +106,7 @@ Calculation of the radius of curvature was done in code cell 5 from line #225. T
 
 This step is executed from line #243
 
-![alt text][image11]
+![alt text][image0]
 
 
 
